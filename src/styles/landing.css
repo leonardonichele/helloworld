@@ -1,0 +1,206 @@
+.content {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Montserrat', 'Roboto', 'sans-serif';
+    background-color: #fff9f3;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+}
+
+p, b {
+    margin-top: 20px;
+    font-size: 32px;
+}
+
+.hero {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+.hero img {
+    width: 500px;
+}
+
+hr {
+    border-top: 15px solid green;
+}
+
+.about {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    margin-top: 36px;
+}
+
+.about img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.about h1 {
+    font-size: 32px;
+}
+
+.about p {
+    font-size: 25px;
+}
+
+.work {
+    text-align: center;
+}
+
+.work h1 {
+    margin-top: 50px;
+    padding: 38px;
+}
+
+.work img {
+    width: 800px;
+    height: 500px;
+}
+
+.knowledge {
+    padding: 50px;
+}
+
+.knowledge h1 {
+    margin-left: 36px;
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+.knowledge h3 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.knowledge p {
+    font-size: 25px;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 15px;
+}
+
+.row {
+    margin: 0 -50px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding-top: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background-color: #fff9f3;
+    height: 450px;
+}
+
+.contact {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+.contact h1 {
+    font-size: 32px;
+}
+
+.contact p {
+    font-size: 25px;
+}
+
+.contact a {
+    color: white;
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 32px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: black;
+    background: white;
+    font-weight: 600;
+}
+
+.flowslabs {
+    background-color: #191932;
+    color: white;
+    padding-left: 36px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.flowslabs img {
+    width: 150px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 300px;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    .hero img {
+        width: 280px;
+    }
+
+    .content {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .work h1 {
+        margin-top: 0;
+    }
+    
+    .work img {
+        width: 325px;
+        height: 250px;
+    }
+
+    .knowledge h1 {
+        margin-left: 0;
+    }
+
+    .card {
+        width: 325px;
+        height: 420px;
+    }
+
+    .contact a {
+        font-size: 18px;
+    }
+}
